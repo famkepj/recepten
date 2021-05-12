@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <html lang='nl'> 
+
+    <head>
+      <meta charset="UTF-8"/> 
+      <title>Receptenwebsite</title>
+     <link rel="stylesheet"type="text/css"href="styles.css"/>
+    </head>
+         <body>
+          <h1> Recepten delen </h1>
+            <form name="recepten" method="POST" data-netlify="true">
+              <p>
+                <label>Naam:<input type ="text"name="name"/><label>
+              </p>
+              <p>
+                <label>Email:<input type ="email"name="email"/><label>
+              </p>
+              <p>
+                <label>Telefoonnummer:<input type ="tel"name="tel"/></label>
+              </p>
+              <p>
+                <label>Leeftijd:<input type ="number"name="number"/></label>
+              </p>
+              <p>
+                <label>Geboortedatum:<input type ="date"name="date"/></label>
+              </p>
+              <p>
+                <label> Geslacht:<input type ="radio"name="gender" value="Man"/> Man<label> <input type ="radio"name="gender" value="Vrouw"/> Vrouw <input type ="radio"name="gender" value="Anders"/> Anders
+              </p>
+              <p>
+                <label> Favoriete cuisine:<input type ="checkbox"name="cuisine" value="Frans"/>Frans</label> <input type ="checkbox"name="cuisine" value="Italiaans"/>Italiaans</label> <input type ="checkbox"name="cuisine" value="Spaans"/>Spaans</label> <input type ="checkbox"name="cuisine" value="Arabisch"/>Arabisch</label>
+              </p>
+              <p>
+                <label> Favoriete kleur van short: <input type = "color" name="color"/></label>
+              </p>
+              
+                <label> Biografie: </label>
+                <textarea></textarea>
+             
+              <p>
+                <label> Upload je laatste recept: <input type ="file" name= "file"/> </label> 
+              </p>
+              <p>
+                <label> Url naar je recepten website: <input type = "url" name="url"/></label>
+              </p>
+              <p>
+                <input type="reset" name="reset">
+                <input type="submit" name="submit">
+              </p>
+            </form>
+          
+         </body>
+</html>

@@ -1,0 +1,114 @@
+body {
+  color: antraciet;
+  padding:50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif
+}
+
+.titel{
+  color:#3e5cac;
+  text-align: center
+}
+
+.grey_background {
+  background-color: lightgrey;
+}
+#blue-background {
+  background-color:#3e5cac;
+  color: cornsilk;
+}
+.green {
+  color:#89a64f;
+}
+
+figure{
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px;}
+
+  a{
+    text-decoration: none;
+    color:cornsilk;
+    display: block;
+    padding: 8px;
+  
+  }
+  footer {
+    padding: 10px;
+    text-align: center;
+    border-style: dashed;
+  }
+  
+  footer ul{
+    list-style:none;
+  }
+
+  header{
+    border: 2px solid yellow;
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  main{ 
+    border: 2px solid orange;
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .horizontale_navigatie{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .horizonnav {
+    width: 15%;
+    height: 100px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: skyblue;
+    border: solid 1px
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  .horizonnav:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+
+  /*CSS Media Queries*/
+
+
+@media (max-width: 400px){
+  .horizontale_navigatie{
+    width: 90%;
+  }
+  .p{font-size: 1.5rem;
+  }
+  .grey_background{
+    color:lightskyblue
+  }
+  }
+
+
+@media (min-width: 1024px){
+.grey_background{
+  background-color: mediumaquamarine;
+}
+body{
+  color: red;
+  font-size: 1em;
+  Line-height: 1,5;
+}
+}
